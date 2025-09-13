@@ -152,6 +152,7 @@ const Announcements = () => {
         borderRadius: 2,
         boxShadow: 1,
         mb: 4,
+        mt: 4
       }}
     >
       {/* Header */}

@@ -11,21 +11,16 @@ import Header from "./components/Header.jsx";
 const App = () => {
   return (
     <>
-      {/* Top Header */}
       <Header />
 
-      {/* Main App Layout */}
       <Box sx={{ display: "flex", bgcolor: "grey.50" }}>
-        {/* Sidebar */}
+
         <Sidebar />
 
-        {/* Main Content Area */}
         <Box sx={{ flex: 1, display: "flex", flexDirection: "column" }}>
           
-          {/* Video + Course Content Combined */}
           <VideoSection />
 
-          {/* Remaining Tabs Below */}
           <Box sx={{ p: 2 }}>
             <Resources/>
             <QandA />
